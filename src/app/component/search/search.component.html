@@ -1,0 +1,57 @@
+<div class="mt-3">
+    <div>
+        <h3>Search Criteria</h3>
+    </div>
+    <table class="table table-secondary table-bordered mt-3">
+        <tbody>
+            <tr>
+                <td><label>Vendor Name</label></td>
+                <td><input type="text" class="form-control" placeholder="Enter Vendor Name"></td>
+                <td><label>ESO</label></td>
+                <td><input type="text" class="form-control" placeholder="ESO"></td>
+            </tr>
+            <tr>
+                <td><label>Current Vendor Only</label></td>
+                <td><input type="checkbox" class="form-check-input"></td>
+                <td><label>EC</label></td>
+                <td><input type="text" class="form-control" placeholder="ECO"></td>
+            </tr>
+            <tr>
+                <td><label>Vendor Reference No</label></td>
+                <td><input type="text" class="form-control" placeholder="Enter Vendor Name"></td>
+                <td><label>ATA</label></td>
+                <td><input type="text" class="form-control" placeholder="ATA"></td>
+            </tr>
+            <tr>
+                <td><label>Detail Doc Type</label></td>
+                <td>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </td>
+                <td><label>Detail No</label></td>
+                <td><input type="text" class="form-control" placeholder="ESO"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><a routerLink="/search/advance-search" routerLinkActive="active">Advance Search (Display)</a></td>
+            </tr>
+            <tr> 
+                <td colspan="4">
+                    <tr class="d-flex justify-content-end">
+                        <td><button type="button" class="btn btn-secondary btn-lg">Clear</button></td>
+                        <td><button type="button" class="btn btn-success btn-lg">Search</button></td>
+                    </tr>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+
+

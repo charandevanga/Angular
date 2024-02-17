@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;   
+}
+
+li{
+    line-height: 20px;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+}
+
+li ul li a {
+    padding-left: 8px;
+}
